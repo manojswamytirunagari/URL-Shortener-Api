@@ -35,7 +35,7 @@
       error.textContent = '';
 
       try {
-        const response = await fetch('/shorten', {
+        const response = await fetch('https://url-shortener-api-8uyy.onrender.com/shorten', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json'
